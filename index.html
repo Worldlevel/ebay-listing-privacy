@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Privacy Policy for eBay Listing System, a privately operated tool for authorized eBay seller listing and inventory workflows.">
+  <title>Privacy Policy | eBay Listing System</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fa; color: #1d2839; line-height: 1.72; }
+    header { background: #111b31; color: #fff; padding: 52px 22px 44px; }
+    header div, main, footer div { max-width: 820px; margin: auto; }
+    .eyebrow { color: #a7b9d7; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; font-weight: 700; margin: 0 0 12px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.18; margin: 0 0 15px; }
+    header p { color: #d5dfec; max-width: 680px; margin: 0; }
+    main { padding: 38px 22px 64px; }
+    article { background: #fff; border: 1px solid #e3e8f0; border-radius: 16px; padding: 12px 35px 30px; box-shadow: 0 8px 28px rgba(13, 30, 55, .05); }
+    h2 { font-size: 1.15rem; margin: 29px 0 8px; line-height: 1.4; }
+    p, li { font-size: .99rem; }
+    ul { padding-left: 24px; }
+    a { color: #1557aa; overflow-wrap: anywhere; }
+    a:hover { text-decoration-thickness: 2px; }
+    .meta { font-size: .88rem; color: #5e6a7a; margin: 18px 0 22px; }
+    .notice { margin: 12px 0; padding: 12px 16px; border-left: 3px solid #3268b5; background: #f1f6ff; border-radius: 4px; }
+    footer { border-top: 1px solid #dde4ec; padding: 22px; color: #677388; font-size: .84rem; }
+    @media (max-width: 600px) { header { padding-top: 36px; } article { padding: 10px 21px 25px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">eBay Listing System</p>
+      <h1>Privacy Policy</h1>
+      <p>How this privately operated seller tool accesses, uses, stores, and protects data when the authorized account owner connects eBay.</p>
+    </div>
+  </header>
+  <main>
+    <article>
+      <p class="meta"><strong>Effective date:</strong> October 11, 2026 &nbsp;|&nbsp; <strong>Contact:</strong> <a href="mailto:kangkangzhu918@gmail.com">kangkangzhu918@gmail.com</a></p>
+      <p class="notice">eBay Listing System is an independent, privately operated software tool. It is not an official eBay product and is not endorsed by eBay. The tool is currently intended for use by its authorized seller account operator, not as a general public service.</p>
+
+      <h2>1. Data we access</h2>
+      <p>When the eBay account owner authorizes the application, it may access information made available through the approved eBay APIs and scopes needed for its enabled features, such as:</p>
+      <ul>
+        <li>Seller account and business policy information, marketplace settings, and shipping locations.</li>
+        <li>Listing content, product details, images, item identifiers, variation attributes, prices, and inventory levels.</li>
+        <li>Order or fulfillment-related information, which may include buyer name, shipping address, and order details, only when an enabled feature requires it and the authorized API permissions allow it.</li>
+        <li>OAuth authorization credentials, including short-lived access tokens and refresh tokens issued by eBay.</li>
+        <li>Local diagnostic records, API status/error responses, and listing audit reports created during use.</li>
+      </ul>
+      <p>The tool does not ask for or store the seller's eBay account password.</p>
+
+      <h2>2. How we use the data</h2>
+      <p>The data is used to authenticate seller-approved requests, research and prepare product listings, create or revise listings when explicitly authorized, check inventory and business policies, and read back results to detect errors or duplicate submissions. Order data, if accessed, is used only for authorized order and fulfillment functions. Information is not used to build advertising profiles or sold to data brokers.</p>
+
+      <h2>3. Authorization and seller control</h2>
+      <p>The seller signs in through eBay's OAuth authorization flow and chooses whether to grant the requested permissions. Access tokens may be renewed automatically using an eBay-issued refresh token while that permission remains valid. The seller can revoke the application's access through the eBay account's connected-app or third-party authorization settings. A revoked or expired authorization must be renewed through eBay if the tool is to continue accessing protected data.</p>
+
+      <h2>4. Storage and security</h2>
+      <p>The current Windows application keeps application credentials and seller OAuth tokens encrypted in a local Windows user-scoped credential store using the Windows Data Protection API (DPAPI). Local listing plans, reference product information, and audit records may be stored in files on the operator's computer. The operator is responsible for limiting device and file access, maintaining backups, and securing the local account.</p>
+      <p>Production API secrets and seller tokens must not be placed in the public privacy-policy repository. The application's separate source-code repository is not a token-storage service. No method of storage or transmission provides absolute security.</p>
+
+      <h2>5. Sharing and service providers</h2>
+      <p>The application communicates with eBay's API services to perform requested seller operations. This public policy page is hosted by GitHub Pages, so GitHub may process web access and infrastructure information under its own privacy policies. The tool is not currently designed to transmit seller tokens or buyer records to the public GitHub Pages website. If new external processors or hosted features are introduced, this policy should be updated before they are used.</p>
+
+      <h2>6. Retention and deletion</h2>
+      <p>Locally stored tokens, listing data, and audit files may remain until deleted by the account operator or as needed for troubleshooting and audit history. The operator can revoke eBay permissions, delete locally stored credentials and application-generated files, and request assistance with data access or deletion using the contact below. Some information may remain in eBay's own systems under eBay's policies or in backups until they expire or are deleted.</p>
+
+      <h2>7. Rights and choices</h2>
+      <p>For questions about information handled by this application, or to request access, correction, or deletion where applicable, email <a href="mailto:kangkangzhu918@gmail.com">kangkangzhu918@gmail.com</a>. Requests will be reviewed with regard to identity verification, applicable law, and the information actually controlled by this tool. To exercise rights concerning information held directly by eBay, contact eBay through its privacy channels.</p>
+
+      <h2>8. Policy changes</h2>
+      <p>This policy may be updated as the application's features, data uses, legal obligations, or service providers change. The effective date above will be updated when material changes are published. Continued use should be based on the most recent publicly available version.</p>
+
+      <h2>9. Contact</h2>
+      <p><strong>eBay Listing System — Privacy Contact</strong><br>
+      Email: <a href="mailto:kangkangzhu918@gmail.com">kangkangzhu918@gmail.com</a></p>
+    </article>
+  </main>
+  <footer><div>© 2026 eBay Listing System. Independent seller software. Not affiliated with eBay Inc.</div></footer>
+</body>
+</html>
